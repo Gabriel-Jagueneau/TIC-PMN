@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIC-PMN | interactive</title>
+    <title>TIC-PMN | i-Sea project</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="storage/images/logo-isea-littoral.png">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
     <header class="sidebar collapsed" id="sidebar">
@@ -17,36 +19,36 @@
                 </svg>
             </button>
             <div class="sep" role="none"></div>
-            <a href="#" class="nav-link">
+            <a onclick="loadPage('home')" class="nav-link page-transition">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
                 <span class="desc-header">Présentation</span>
             </a>
-            <a href="#" class="nav-link">
+            <a onclick="loadPage('map')" class="nav-link page-transition">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg>
                 <span class="desc-header">Map</span>
             </a>
-            <a href="#" class="nav-link">
+            <a onclick="loadPage('donnees')" class="nav-link page-transition">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
                 <span class="desc-header">Données</span>
             </a>
-            <a href="#" class="nav-link">
+            <a onclick="loadPage('sources')" class="nav-link page-transition">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 5H3"/><path d="M10 12H3"/><path d="M10 19H3"/><circle cx="17" cy="15" r="3"/><path d="m21 19-1.9-1.9"/></svg>
                 <span class="desc-header">Sources</span>
             </a>
         </nav>
     </header>
 
-    <main class="main-content">
-        <section class="hero-card">
-            <h1>TIC-PMN</h1>
-            <p>C'est juste un début !</p>
-        </section>
+    <main id="main-content">
+        
     </main>
 
-    <footer>
-        <p>&copy; 2026 TIC-PMN. All rights reserved.</p>
+    <footer id="footer">
+        <p>je sais pas quoi mettre</p>
     </footer>
 
-    <script src="storage/scripts/default.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="storage/default.js"></script>
+    <script src="storage/pages.js"></script>
+    <script src="storage/landing-page.js"></script>
 </body>
 </html>
