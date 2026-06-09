@@ -61,9 +61,46 @@
     <section class="scroll-section" id="final">
         <div class="cta-full-box">
             <h2 class="final-title">C'est fini</h2>
-            <p>Je sais pas quoi écrire ici</p>
-            <button class="btn-primary" onclick="loadPage('donnees')">Consulter les données</button>
+            <p>Je sais pas quoi écrire.</p>
+            <div class="buttons">
+                <button class="btn-primary" onclick="loadPage('donnees')">Consulter les données</button>
+                <button class="btn-primary" onclick="loadPage('donnees')">Consulter les sources</button>
+            </div>
         </div>
     </section>
+
+    <footer id="footer">
+        <div class="shape-4"></div>
+        <div class="inside">
+            <div class="logo">
+                <img src="storage/images/i-sea_image.png" alt="logo i-sea">
+                <div class="sep"></div>
+                <img src="storage/images/logo_bsa.png" alt="logo BSA">
+            </div>
+            <div class="content">
+                <div class="high">
+                    <div class="section">
+                        <div class="title">Pages</div>
+                        <div class="content">
+                            <div class="page" onclick="loadPage('home')">Présentation</div>
+                            <div class="page" onclick="loadPage('map')">Map</div>
+                            <div class="page" onclick="loadPage('donnees')">Données</div>
+                            <div class="page" onclick="loadPage('sources')">Sources</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="title">Sites</div>
+                        <div class="content">
+                            <a class="site" href="https://i-sea.fr/" target="_blank" rel="noopener noreferrer">i-sea.fr</a>
+                            <a class="site" href="https://cosmeo.earth" target="_blank" rel="noopener noreferrer">cosmeo.earth</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="low">
+                    © 2026 Projet i-Sea — TIC-PMN. Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </div>

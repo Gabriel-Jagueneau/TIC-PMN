@@ -1,9 +1,35 @@
-<div class="map-page">
-    <h1>Carte interactive</h1>
-    <p>Cette page présente une carte interactive des points de mesure du PMN. Cliquez sur les points pour voir les données associées.</p>
-  
-    <div id="map-container">
-    
-    </div>
+<div id="map-container">
+    <div id="map-control-panel">
+        <h2 class="panel-title">Gestion des Couches</h2>
+        <div class="panel-sep"></div>
+        
+        <div class="layer-section">
+            <h3>Fichiers Vecteurs (SHP)</h3>
+            <label class="layer-item">
+                <input type="checkbox" id="layer-shp-1" checked>
+                <span class="custom-checkbox"></span>
+                Limites parcellaires
+            </label>
+            <label class="layer-item">
+                <input type="checkbox" id="layer-shp-2">
+                <span class="custom-checkbox"></span>
+                Réseau hydrographique
+            </label>
+        </div>
 
-</div>  
+        <div class="layer-section">
+            <h3>Fichiers Rasters</h3>
+            <label class="layer-item">
+                <input type="checkbox" id="layer-raster-1" checked>
+                <span class="custom-checkbox"></span>
+                Indice NDVI (Capteur)
+            </label>
+            <label class="layer-item">
+                <input type="checkbox" id="layer-raster-2">
+                <span class="custom-checkbox"></span>
+                Modèle Numérique de Terrain
+            </label>
+        </div>
+    </div>
+    <div id="osm-map"></div>
+</div>

@@ -19,6 +19,10 @@ async function loadPage(pageName) {
 
         if (pageName === 'home' && typeof initHomeAnimations === 'function') {
             initHomeAnimations();
+            if (typeof initFooterModel === 'function') initFooterModel();
+        } else if (pageName === 'map' && typeof initMapDashboard === 'function') {
+            initMapDashboard();
+            if (typeof initFooterModel === 'function') initFooterModel();
         }
 
     } catch (error) {

@@ -6,11 +6,19 @@
     <title>TIC-PMN | i-Sea project</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="storage/images/logo-isea-littoral.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="storage/default.js"></script>
+    <script src="storage/pages.js"></script>
+    <script src="storage/landing-page.js"></script>
+    <script src="storage/map.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
-    <header class="sidebar collapsed" id="sidebar">
-        <div class="name-company">i-Sea</div>
+    <header class="sidebar collapsed" id="sidebar" onmouseleave="manageMenu(true)">
+        <div class="name-company">TIC-PMN</div>
         <nav aria-label="Navigation principale">
             <button onclick="manageMenu()" aria-label="Menu" class="menu-toggle" aria-expanded="false" aria-controls="sidebar">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 59" fill="none">
@@ -38,17 +46,6 @@
         </nav>
     </header>
 
-    <main id="main-content">
-        
-    </main>
-
-    <footer id="footer">
-        <p>je sais pas quoi mettre</p>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="storage/default.js"></script>
-    <script src="storage/pages.js"></script>
-    <script src="storage/landing-page.js"></script>
+    <main id="main-content"></main>
 </body>
 </html>

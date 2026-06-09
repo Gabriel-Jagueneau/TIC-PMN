@@ -45,11 +45,11 @@ function initHomeAnimations() {
     container3D_2.appendChild(viewer_2);
     
     const viewer_3 = document.createElement('model-viewer');
-    viewer_3.setAttribute('src', 'storage/objects/france_terrain.STL.glb');
+    viewer_3.setAttribute('src', 'storage/objects/Sans titre4.glb');
     viewer_3.setAttribute('alt', 'Globe terrestre littoral');
     viewer_3.setAttribute('shadow-intensity', '0');
     viewer_3.setAttribute('interaction-prompt', 'none');
-    viewer_3.setAttribute('camera-orbit', '10deg 135deg auto');
+    viewer_3.setAttribute('camera-orbit', '15deg 50deg auto');
     viewer_3.setAttribute('rotation-per-second', '10deg');
     
     container3D_3.appendChild(viewer_3);
@@ -97,7 +97,7 @@ function initHomeAnimations() {
 
             frameCount++;
             if (frameCount >= spawnInterval) {
-                circles.push({ radius: 300, opacity: 0.8 });
+                circles.push({ radius: 250, opacity: 0.8 });
                 frameCount = 0;
             }
 
@@ -140,7 +140,7 @@ function initHomeAnimations() {
 
     scrollTimeline = anime.timeline({
         autoplay: false,
-        easing: 'linear'
+        easing: 'easeOutQuad'
     });
 
     scrollTimeline
@@ -160,19 +160,19 @@ function initHomeAnimations() {
     }, 0)
     .add({
         targets: '#hero .hero-title',
-        translateY: [0, -50],
+        translateY: [0, -80],
         opacity: [1, 0],
-        duration: 300
+        duration: 250
     }, 0)
     .add({
         targets: '#hero .hero-subtitle',
-        translateY: [0, -30],
+        translateY: [0, -60],
         opacity: [1, 0],
         duration: 250
     }, 50)
     .add({
         targets: '.shape-1',
-        translateY: [0, -800],
+        translateY: [0, -400],
         opacity: [1, 0],
         duration: 300
     }, 0)
@@ -196,16 +196,9 @@ function initHomeAnimations() {
     }, 300)
     .add({
         targets: '.shape-2',
-        translateY: [80, 0],
-        opacity: [0, 1],
-        scale: [1.4, 1],
-        duration: 300
-    }, 200)
-    .add({
-        targets: container3D_1,
-        x: [Math.PI, 0],
-        y: [Math.PI / 2, 0],
-        z: [0, 0],
+        translateY: [400, 0],
+        opacity: [0.6, 1],
+        scale: [1.2, 1],
         duration: 300
     }, 200)
     .add({
@@ -215,8 +208,9 @@ function initHomeAnimations() {
     }, 500)
     .add({
         targets: '.shape-3',
-        scale: [0.6, 1],
+        scale: [0.6, 0.9],
         opacity: [0, 1],
+        translateX: [100, -80],
         duration: 350
     }, 550)
     .add({
