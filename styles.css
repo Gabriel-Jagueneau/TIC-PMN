@@ -586,7 +586,7 @@ footer {
         filter: saturate(0.6);
         & model-viewer {
             width: 50vw;
-            height: 50vw;
+            height: 50rem;
         }
     }
 
