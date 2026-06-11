@@ -9,8 +9,6 @@
     --text: #0f2424;
     --lo-text: #717272;
     
-    --sidebar-width-expanded: 200px;
-    --sidebar-width-collapsed: 68px;
     --easing-fluid: cubic-bezier(0.25, 1, 0.5, 1);
 }
 * {
@@ -31,6 +29,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+.box-blur {
+    background: color-mix(in srgb, var(--sec) 85%, transparent);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(15, 36, 36, 0.15);
+}
 
 
 .sidebar {
@@ -38,17 +42,13 @@ body {
     top: 0.5rem;
     left: 0.5rem;
     height: calc(100vh - 0.5rem*2);
-    width: var(--sidebar-width-expanded);
-    background: color-mix(in srgb, var(--sec) 85%, transparent);
-    backdrop-filter: blur(8px);
-    border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(15, 36, 36, 0.15);
+    width: 200px;
     z-index: 100;
     transition: width 0.4s var(--easing-fluid);
     will-change: width;
     contain: layout;
     &.collapsed {
-        width: var(--sidebar-width-collapsed);
+        width: 68px;
         & .desc-header {
             opacity: 0;
             transform: translateX(-10px);
@@ -80,7 +80,7 @@ body {
     padding: 0.1rem;
     gap: 1rem;
     &:hover {
-        background-color: color-mix(in srgb, var(--side) 80%, var(--prim));
+        background-color: color-mix(in srgb, var(--lo-text) 40%, transparent);
     }
     & svg {
         height: 3rem;
@@ -103,7 +103,7 @@ body {
     transition: 0.2s ease;
     cursor: pointer;
     &:hover {
-        background: var(--lo-text);
+        background-color: color-mix(in srgb, var(--lo-text) 40%, transparent);
         color: #ffffff;
     }
     & svg {
@@ -130,7 +130,6 @@ body {
 /* main */
 
 #main-content {
-    margin-left: var(--sidebar-width-collapsed);
     transition: 0.4s var(--easing-fluid);
 
     width: 100%;
@@ -138,10 +137,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-body:has(.sidebar:not(.collapsed)) #main-content {
-    margin-left: var(--sidebar-width-expanded);
 }
 
 .page-transition {
@@ -192,18 +187,23 @@ body:has(.sidebar:not(.collapsed)) #main-content {
 
     & .radial-glow {
         position: fixed !important;
-        top: -50px;
+        top: -200px;
         left: 50%;
         transform: translateX(-50%);
-        width: 400px;
-        height: 50px;
-        background: var(--accent);
-        border-radius: 50%;
-        box-shadow: 0 0 150px 80px var(--accent);
-        z-index: 9998;
+        width: 500px;
+        height: 300px;
+        z-index: 9999;
         pointer-events: none;
+        overflow: visible;
+        background: 
+            radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--accent) 100%, transparent), transparent 50%),
+            radial-gradient(circle at 70% 40%, color-mix(in srgb, color-mix(in srgb, var(--accent) 80%, blue) 80%, transparent), transparent 50%),
+            radial-gradient(circle at 50% 80%, color-mix(in srgb, var(--accent) 100%, transparent), transparent 50%);
+        filter: blur(70px);
+        background-size: 150% 150%;
         opacity: 0;
         will-change: opacity;
+        animation: rotateTranslateGlow 12s linear infinite;
     }
     & .fixed-cta-wrapper {
         position: fixed !important;
@@ -301,9 +301,9 @@ body:has(.sidebar:not(.collapsed)) #main-content {
             display: block;
             overflow: visible;
             & model-viewer {
-                transform: translate(-20%, -30%);
-                width: 100vh;
-                height: 100vh;
+                transform: translate(-20%, 0%);
+                width: 80vh;
+                height: 80vh;
             }
         }
         & .shape-3 {
@@ -375,7 +375,6 @@ body:has(.sidebar:not(.collapsed)) #main-content {
         border-radius: 8px;
         text-align: center;
         will-change: transform, opacity;
-        margin-right: 1%;
         & p {
             color: var(--sec);
             margin-bottom: 2.5rem;
@@ -406,12 +405,31 @@ body:has(.sidebar:not(.collapsed)) #main-content {
     }
 }
 
-body:has(.sidebar:not(.collapsed)) .landing-page {
-    width: calc(100% - var(--sidebar-width-expanded) / 1.5);
-}
-
 model-viewer::part(default-progress-bar) {
     display: none !important;
+}
+
+@keyframes rotateTranslateGlow {
+    0% {
+        background-position: 0% 0%;
+        transform: translateX(-50%) rotate(0deg) scale(1);
+    }
+    25% {
+        background-position: 100% 0%;
+        transform: translateX(-60%) rotate(90deg) scale(1.1);
+    }
+    50% {
+        background-position: 100% 100%;
+        transform: translateX(-50%) rotate(180deg) scale(1.2);
+    }
+    75% {
+        background-position: 0% 100%;
+        transform: translateX(-40%) rotate(270deg) scale(1.1);
+    }
+    100% {
+        background-position: 0% 0%;
+        transform: translateX(-50%) rotate(360deg) scale(1);
+    }
 }
 
 /* map */
@@ -421,14 +439,8 @@ model-viewer::part(default-progress-bar) {
     margin-left: auto;
     width: 100vw;
     height: 100vh;
-    transform: translate(calc(-1 * var(--sidebar-width-collapsed)), 0) !important; 
     overflow: hidden;
     display: flex;
-    transition: var(--easing-fluid) 0.4s;
-}
-
-body:has(.sidebar:not(.collapsed)) #map-container {
-    transform: translate(calc(-1 * var(--sidebar-width-expanded)), 0) !important; 
 }
 
 .leaflet-control-attribution {
@@ -458,10 +470,6 @@ body:has(.sidebar:not(.collapsed)) #map-container {
     right: 1rem;
     width: 320px;
     max-height: calc(100vh - 2rem);
-    background: color-mix(in srgb, var(--sec) 85%, transparent);
-    backdrop-filter: blur(8px);
-    border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(15, 36, 36, 0.15);
     z-index: 10;
     padding: 1.5rem;
     display: flex;
@@ -478,8 +486,9 @@ body:has(.sidebar:not(.collapsed)) #map-container {
 }
 
 .panel-sep {
-    height: 1px;
-    background-color: color-mix(in srgb, var(--lo-text) 20%, var(--prim));
+    padding: 0.5px;
+    width: 100%;
+    background-color: color-mix(in srgb, var(--lo-text) 50%, var(--prim));
 }
 
 .layer-section {
@@ -537,6 +546,57 @@ body:has(.sidebar:not(.collapsed)) #map-container {
     transform: rotate(45deg);
 }
 
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.filter-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--prim) 80%, transparent);
+    color: var(--text);
+    border: 1px solid color-mix(in srgb, var(--lo-text) 30%, var(--prim));
+    outline: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.custom-slider {
+    width: 100%;
+    accent-color: var(--accent);
+    cursor: pointer;
+}
+
+.custom-btn-reset {
+    background: color-mix(in srgb, var(--accent) 15%, transparent);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.custom-btn-reset:hover {
+    background: var(--accent);
+    color: var(--prim);
+}
+
+.custom-btn-reset:active {
+    transform: scale(0.95);
+}
+
 /* donnees*/
 
 /* sources */
@@ -582,7 +642,7 @@ footer {
         & .logo {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-evenly;
             flex: 1;
             padding-right: 12rem;
             height: 20%;

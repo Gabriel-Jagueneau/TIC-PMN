@@ -33,19 +33,19 @@ function initHomeAnimations() {
     container3D_1.appendChild(viewer_1);
     
     const viewer_2 = document.createElement('model-viewer');
-    viewer_2.setAttribute('src', 'storage/objects/eoes_satellite.glb');
+    viewer_2.setAttribute('src', 'storage/objects/sat_E_P.glb');
     viewer_2.setAttribute('alt', 'Globe terrestre littoral');
     viewer_2.setAttribute('auto-rotate', '');
     viewer_2.setAttribute('auto-rotate-delay', '0');
     viewer_2.setAttribute('shadow-intensity', '0');
     viewer_2.setAttribute('interaction-prompt', 'none');
-    viewer_2.setAttribute('camera-orbit', '0deg 75deg auto');
+    viewer_2.setAttribute('camera-orbit', '0deg 120deg auto');
     viewer_2.setAttribute('rotation-per-second', '10deg');
     
     container3D_2.appendChild(viewer_2);
     
     const viewer_3 = document.createElement('model-viewer');
-    viewer_3.setAttribute('src', 'storage/objects/Sans titre4.glb');
+    viewer_3.setAttribute('src', 'storage/objects/Carte_FR_3D_F.glb');
     viewer_3.setAttribute('alt', 'Globe terrestre littoral');
     viewer_3.setAttribute('shadow-intensity', '0');
     viewer_3.setAttribute('interaction-prompt', 'none');
@@ -147,7 +147,7 @@ function initHomeAnimations() {
     .add({
         targets: '.fixed-cta-wrapper',
         top: [`${startTop}px`, '50px'],
-        left: [`${startLeft+30}px`, `${container.getBoundingClientRect().width/2}px`],
+        left: [`${startLeft+96}px`, `${container.getBoundingClientRect().width/2}px`],
         translateX: ['-50%', '-50%'],
         translateY: ['-50%', '-50%'],
         scale: [1, 1.2],

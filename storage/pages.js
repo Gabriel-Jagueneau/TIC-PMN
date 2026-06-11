@@ -1,4 +1,4 @@
-async function loadPage(pageName) {
+async function loadPage(pageName, pushToHistory = true) {
     const contentDiv = document.getElementById('main-content');
     const url = `storage/pages/${pageName}.html`;
 
@@ -25,11 +25,30 @@ async function loadPage(pageName) {
             if (typeof initFooterModel === 'function') initFooterModel();
         }
 
+        if (pushToHistory) {
+            window.history.pushState({ page: pageName }, "", `?page=${pageName}`);
+        }
+
     } catch (error) {
         contentDiv.innerHTML = `<p>Erreur lors du chargement de la page : ${error.message}</p>`;
     }
 }
 
+function getPageFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('page') || 'home';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-    loadPage('home');
+    const initialPage = getPageFromUrl();
+    loadPage(initialPage, false);
+});
+
+window.addEventListener('popstate', (event) => {
+    if (event.state && event.state.page) {
+        loadPage(event.state.page, false);
+    } else {
+        const page = getPageFromUrl();
+        loadPage(page, false);
+    }
 });

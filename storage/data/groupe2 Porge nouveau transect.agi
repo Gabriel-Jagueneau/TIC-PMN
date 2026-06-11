@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<document name="groupe2 Porge nouveau transect" description="" system="Lambert 93" amo="1">
+  <dictionary fileName=""/>
+  <rasters>
+  </rasters>
+  <shapefiles>
+  </shapefiles>
+  <stats entities="7" positions="113"/>
+  <ssf correction="0"/>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21821700" y="44.89541640" z="57.390" xl="367144.986" yl="6430696.005" zl="" date="2026-06-10" time="12:28:58" pdop="3.6" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="8.611"/>
+      <point x="-1.21822100" y="44.89541460" z="57.660" xl="367144.660" yl="6430695.822" zl="" date="2026-06-10" time="12:29:00" pdop="3.6" dgps="0" sat="7" speed="0.3" offset="0.000" offset_dir="0" p="8.673"/>
+      <point x="-1.21822070" y="44.89541380" z="57.810" xl="367144.679" yl="6430695.732" zl="" date="2026-06-10" time="12:29:02" pdop="3.6" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="8.735"/>
+      <point x="-1.21822010" y="44.89541380" z="57.950" xl="367144.726" yl="6430695.730" zl="" date="2026-06-10" time="12:29:04" pdop="3.6" dgps="0" sat="7" speed="0.2" offset="0.000" offset_dir="0" p="8.860"/>
+      <point x="-1.21822050" y="44.89541320" z="58.010" xl="367144.691" yl="6430695.665" zl="" date="2026-06-10" time="12:29:06" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="8.673"/>
+      <point x="-1.21822000" y="44.89541300" z="58.100" xl="367144.729" yl="6430695.641" zl="" date="2026-06-10" time="12:29:08" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="8.361"/>
+      <point x="-1.21821890" y="44.89541300" z="58.150" xl="367144.816" yl="6430695.636" zl="" date="2026-06-10" time="12:29:10" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="8.049"/>
+      <point x="-1.21821840" y="44.89541340" z="58.180" xl="367144.858" yl="6430695.678" zl="" date="2026-06-10" time="12:29:12" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.612"/>
+      <point x="-1.21821830" y="44.89541350" z="58.170" xl="367144.866" yl="6430695.689" zl="" date="2026-06-10" time="12:29:14" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.425"/>
+      <point x="-1.21821770" y="44.89541360" z="58.210" xl="367144.914" yl="6430695.697" zl="" date="2026-06-10" time="12:29:16" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.488"/>
+      <point x="-1.21821820" y="44.89541230" z="58.420" xl="367144.867" yl="6430695.555" zl="" date="2026-06-10" time="12:29:18" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="7.238"/>
+      <point x="-1.21821800" y="44.89541150" z="58.520" xl="367144.878" yl="6430695.466" zl="" date="2026-06-10" time="12:29:20" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="6.988"/>
+      <point x="-1.21821780" y="44.89541140" z="58.540" xl="367144.893" yl="6430695.454" zl="" date="2026-06-10" time="12:29:22" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.739"/>
+      <point x="-1.21821740" y="44.89541210" z="58.560" xl="367144.929" yl="6430695.530" zl="" date="2026-06-10" time="12:29:24" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.801"/>
+      <point x="-1.21821690" y="44.89541190" z="58.560" xl="367144.967" yl="6430695.505" zl="" date="2026-06-10" time="12:29:26" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="6.801"/>
+      <point x="-1.21821700" y="44.89541220" z="58.590" xl="367144.961" yl="6430695.539" zl="" date="2026-06-10" time="12:29:28" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="6.739"/>
+      <point x="-1.21821680" y="44.89541330" z="58.620" xl="367144.983" yl="6430695.660" zl="" date="2026-06-10" time="12:29:30" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="6.739"/>
+    </data>
+    <attrib name="Name" value="pp1-g22bis-3-op" type="text"/>
+  </entity>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21786840" y="44.89538810" z="59.780" xl="367172.299" yl="6430691.397" zl="" date="2026-06-10" time="12:30:48" pdop="1.4" dgps="0" sat="7" speed="0.4" offset="0.000" offset_dir="0" p="6.988"/>
+      <point x="-1.21787030" y="44.89538800" z="59.740" xl="367172.149" yl="6430691.394" zl="" date="2026-06-10" time="12:30:50" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.926"/>
+      <point x="-1.21787080" y="44.89538760" z="59.670" xl="367172.107" yl="6430691.351" zl="" date="2026-06-10" time="12:30:52" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.864"/>
+      <point x="-1.21787040" y="44.89538690" z="59.600" xl="367172.135" yl="6430691.272" zl="" date="2026-06-10" time="12:30:54" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="6.864"/>
+      <point x="-1.21787060" y="44.89538650" z="59.560" xl="367172.116" yl="6430691.229" zl="" date="2026-06-10" time="12:30:56" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.801"/>
+      <point x="-1.21787090" y="44.89538660" z="59.530" xl="367172.093" yl="6430691.241" zl="" date="2026-06-10" time="12:30:58" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.801"/>
+      <point x="-1.21787110" y="44.89538670" z="59.470" xl="367172.078" yl="6430691.253" zl="" date="2026-06-10" time="12:31:00" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.864"/>
+      <point x="-1.21787010" y="44.89538720" z="59.360" xl="367172.160" yl="6430691.304" zl="" date="2026-06-10" time="12:31:02" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.988"/>
+      <point x="-1.21786970" y="44.89538800" z="59.240" xl="367172.196" yl="6430691.391" zl="" date="2026-06-10" time="12:31:04" pdop="1.4" dgps="0" sat="7" speed="0.2" offset="0.000" offset_dir="0" p="7.113"/>
+      <point x="-1.21786900" y="44.89538910" z="59.070" xl="367172.258" yl="6430691.510" zl="" date="2026-06-10" time="12:31:06" pdop="1.4" dgps="0" sat="7" speed="0.2" offset="0.000" offset_dir="0" p="7.176"/>
+      <point x="-1.21786840" y="44.89538980" z="58.960" xl="367172.309" yl="6430691.585" zl="" date="2026-06-10" time="12:31:08" pdop="1.4" dgps="0" sat="7" speed="0.2" offset="0.000" offset_dir="0" p="7.300"/>
+      <point x="-1.21786890" y="44.89538910" z="58.980" xl="367172.266" yl="6430691.510" zl="" date="2026-06-10" time="12:31:10" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.363"/>
+      <point x="-1.21787040" y="44.89538870" z="59.070" xl="367172.145" yl="6430691.472" zl="" date="2026-06-10" time="12:31:12" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.363"/>
+      <point x="-1.21787060" y="44.89538850" z="59.090" xl="367172.128" yl="6430691.450" zl="" date="2026-06-10" time="12:31:14" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="7.425"/>
+      <point x="-1.21787080" y="44.89538850" z="59.080" xl="367172.113" yl="6430691.451" zl="" date="2026-06-10" time="12:31:16" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.425"/>
+      <point x="-1.21787130" y="44.89538820" z="59.080" xl="367172.071" yl="6430691.420" zl="" date="2026-06-10" time="12:31:18" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="7.488"/>
+    </data>
+    <attrib name="Name" value="pp2-g22bis-3-p" type="text"/>
+  </entity>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21755250" y="44.89531310" z="62.840" xl="367196.758" yl="6430681.747" zl="" date="2026-06-10" time="12:32:53" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.115"/>
+      <point x="-1.21755360" y="44.89531310" z="62.800" xl="367196.672" yl="6430681.752" zl="" date="2026-06-10" time="12:32:55" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.052"/>
+      <point x="-1.21755310" y="44.89531290" z="62.810" xl="367196.710" yl="6430681.727" zl="" date="2026-06-10" time="12:32:57" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21755480" y="44.89531300" z="62.770" xl="367196.576" yl="6430681.746" zl="" date="2026-06-10" time="12:32:59" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21755580" y="44.89531300" z="62.750" xl="367196.498" yl="6430681.750" zl="" date="2026-06-10" time="12:33:01" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21755430" y="44.89531260" z="62.790" xl="367196.613" yl="6430681.699" zl="" date="2026-06-10" time="12:33:03" pdop="1.4" dgps="0" sat="8" speed="0.2" offset="0.000" offset_dir="0" p="6.052"/>
+      <point x="-1.21755390" y="44.89531240" z="62.810" xl="367196.644" yl="6430681.675" zl="" date="2026-06-10" time="12:33:05" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21755320" y="44.89531190" z="62.850" xl="367196.696" yl="6430681.617" zl="" date="2026-06-10" time="12:33:07" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21755190" y="44.89531160" z="62.900" xl="367196.797" yl="6430681.578" zl="" date="2026-06-10" time="12:33:09" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="5.927"/>
+      <point x="-1.21755260" y="44.89531170" z="62.880" xl="367196.742" yl="6430681.592" zl="" date="2026-06-10" time="12:33:11" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="5.865"/>
+      <point x="-1.21755300" y="44.89531170" z="62.880" xl="367196.711" yl="6430681.594" zl="" date="2026-06-10" time="12:33:13" pdop="1.4" dgps="0" sat="7" speed="0.0" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21755260" y="44.89531130" z="62.910" xl="367196.740" yl="6430681.548" zl="" date="2026-06-10" time="12:33:15" pdop="1.4" dgps="0" sat="7" speed="0.1" offset="0.000" offset_dir="0" p="6.052"/>
+      <point x="-1.21755270" y="44.89531130" z="62.890" xl="367196.732" yl="6430681.548" zl="" date="2026-06-10" time="12:33:17" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.052"/>
+      <point x="-1.21755270" y="44.89531140" z="62.880" xl="367196.732" yl="6430681.559" zl="" date="2026-06-10" time="12:33:19" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.115"/>
+      <point x="-1.21755230" y="44.89531120" z="62.890" xl="367196.763" yl="6430681.536" zl="" date="2026-06-10" time="12:33:21" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.115"/>
+      <point x="-1.21755260" y="44.89531120" z="62.880" xl="367196.739" yl="6430681.537" zl="" date="2026-06-10" time="12:33:23" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.177"/>
+    </data>
+    <attrib name="Name" value="pp3-g22bis-3-pe" type="text"/>
+  </entity>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21742920" y="44.89531570" z="62.610" xl="367206.494" yl="6430681.516" zl="" date="2026-06-10" time="12:36:42" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="5.865"/>
+      <point x="-1.21742960" y="44.89531680" z="62.490" xl="367206.469" yl="6430681.639" zl="" date="2026-06-10" time="12:36:44" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="5.865"/>
+      <point x="-1.21742990" y="44.89531770" z="62.340" xl="367206.451" yl="6430681.741" zl="" date="2026-06-10" time="12:36:46" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="5.990"/>
+      <point x="-1.21743100" y="44.89531830" z="62.200" xl="367206.367" yl="6430681.812" zl="" date="2026-06-10" time="12:36:48" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.052"/>
+      <point x="-1.21743130" y="44.89531930" z="62.130" xl="367206.350" yl="6430681.924" zl="" date="2026-06-10" time="12:36:50" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.115"/>
+      <point x="-1.21743210" y="44.89531970" z="62.090" xl="367206.289" yl="6430681.972" zl="" date="2026-06-10" time="12:36:52" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.177"/>
+      <point x="-1.21743310" y="44.89532030" z="62.040" xl="367206.214" yl="6430682.042" zl="" date="2026-06-10" time="12:36:54" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.177"/>
+      <point x="-1.21743330" y="44.89532080" z="61.990" xl="367206.201" yl="6430682.099" zl="" date="2026-06-10" time="12:36:56" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.239"/>
+      <point x="-1.21743410" y="44.89532150" z="61.980" xl="367206.142" yl="6430682.180" zl="" date="2026-06-10" time="12:36:58" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.302"/>
+      <point x="-1.21743440" y="44.89532240" z="61.990" xl="367206.124" yl="6430682.281" zl="" date="2026-06-10" time="12:37:00" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.364"/>
+      <point x="-1.21743510" y="44.89532310" z="61.940" xl="367206.073" yl="6430682.361" zl="" date="2026-06-10" time="12:37:02" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.364"/>
+      <point x="-1.21743590" y="44.89532350" z="61.940" xl="367206.012" yl="6430682.409" zl="" date="2026-06-10" time="12:37:04" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.364"/>
+      <point x="-1.21743670" y="44.89532380" z="61.950" xl="367205.951" yl="6430682.446" zl="" date="2026-06-10" time="12:37:06" pdop="1.4" dgps="0" sat="8" speed="0.0" offset="0.000" offset_dir="0" p="6.427"/>
+      <point x="-1.21743660" y="44.89532380" z="61.890" xl="367205.959" yl="6430682.445" zl="" date="2026-06-10" time="12:37:08" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.427"/>
+      <point x="-1.21743760" y="44.89532440" z="61.850" xl="367205.883" yl="6430682.516" zl="" date="2026-06-10" time="12:37:10" pdop="1.4" dgps="0" sat="8" speed="0.1" offset="0.000" offset_dir="0" p="6.427"/>
+    </data>
+    <attrib name="Name" value="Pp4-g22bis-3-ebl" type="text"/>
+  </entity>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21689140" y="44.89528960" z="69.880" xl="367248.736" yl="6430676.355" zl="" date="2026-06-10" time="12:39:14" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.177"/>
+      <point x="-1.21689060" y="44.89528990" z="69.710" xl="367248.801" yl="6430676.385" zl="" date="2026-06-10" time="12:39:16" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.302"/>
+      <point x="-1.21689020" y="44.89529060" z="69.540" xl="367248.837" yl="6430676.460" zl="" date="2026-06-10" time="12:39:18" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.427"/>
+      <point x="-1.21689110" y="44.89529070" z="69.420" xl="367248.766" yl="6430676.475" zl="" date="2026-06-10" time="12:39:20" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21689080" y="44.89529030" z="69.320" xl="367248.788" yl="6430676.430" zl="" date="2026-06-10" time="12:39:22" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21689140" y="44.89528920" z="69.230" xl="367248.734" yl="6430676.310" zl="" date="2026-06-10" time="12:39:24" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.551"/>
+      <point x="-1.21689150" y="44.89528980" z="69.150" xl="367248.729" yl="6430676.377" zl="" date="2026-06-10" time="12:39:26" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21689110" y="44.89528970" z="69.170" xl="367248.760" yl="6430676.364" zl="" date="2026-06-10" time="12:39:28" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21689110" y="44.89528890" z="69.220" xl="367248.756" yl="6430676.276" zl="" date="2026-06-10" time="12:39:30" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.551"/>
+      <point x="-1.21689090" y="44.89528920" z="69.170" xl="367248.773" yl="6430676.308" zl="" date="2026-06-10" time="12:39:32" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21689120" y="44.89528990" z="69.100" xl="367248.754" yl="6430676.387" zl="" date="2026-06-10" time="12:39:34" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.551"/>
+      <point x="-1.21689080" y="44.89528940" z="69.140" xl="367248.782" yl="6430676.330" zl="" date="2026-06-10" time="12:39:36" pdop="1.4" dgps="0" sat="9" speed="0.0" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21689040" y="44.89528930" z="69.180" xl="367248.813" yl="6430676.317" zl="" date="2026-06-10" time="12:39:38" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21688970" y="44.89529070" z="69.180" xl="367248.877" yl="6430676.469" zl="" date="2026-06-10" time="12:39:40" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.614"/>
+      <point x="-1.21688830" y="44.89529160" z="69.200" xl="367248.992" yl="6430676.563" zl="" date="2026-06-10" time="12:39:42" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.676"/>
+      <point x="-1.21688740" y="44.89529180" z="69.170" xl="367249.065" yl="6430676.582" zl="" date="2026-06-10" time="12:39:44" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.864"/>
+      <point x="-1.21688680" y="44.89529110" z="69.240" xl="367249.108" yl="6430676.502" zl="" date="2026-06-10" time="12:39:46" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="6.926"/>
+      <point x="-1.21688620" y="44.89528970" z="69.350" xl="367249.147" yl="6430676.344" zl="" date="2026-06-10" time="12:39:48" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="6.864"/>
+    </data>
+    <attrib name="Name" value="Pp5-g22bis-3-bl" type="text"/>
+  </entity>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21492860" y="44.89508180" z="64.340" xl="367402.240" yl="6430645.038" zl="" date="2026-06-10" time="12:44:38" pdop="1.0" dgps="0" sat="11" speed="0.3" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21492730" y="44.89508190" z="64.470" xl="367402.344" yl="6430645.044" zl="" date="2026-06-10" time="12:44:40" pdop="1.0" dgps="0" sat="11" speed="0.1" offset="0.000" offset_dir="0" p="5.054"/>
+      <point x="-1.21492610" y="44.89508210" z="64.590" xl="367402.439" yl="6430645.061" zl="" date="2026-06-10" time="12:44:42" pdop="1.0" dgps="0" sat="11" speed="0.1" offset="0.000" offset_dir="0" p="4.999"/>
+      <point x="-1.21492550" y="44.89508110" z="64.590" xl="367402.481" yl="6430644.947" zl="" date="2026-06-10" time="12:44:44" pdop="1.0" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="4.999"/>
+      <point x="-1.21492480" y="44.89508100" z="64.510" xl="367402.535" yl="6430644.933" zl="" date="2026-06-10" time="12:44:46" pdop="1.0" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.054"/>
+      <point x="-1.21492410" y="44.89508130" z="64.480" xl="367402.592" yl="6430644.964" zl="" date="2026-06-10" time="12:44:48" pdop="1.0" dgps="0" sat="11" speed="0.0" offset="0.000" offset_dir="0" p="5.241"/>
+      <point x="-1.21492230" y="44.89508200" z="64.470" xl="367402.738" yl="6430645.034" zl="" date="2026-06-10" time="12:44:50" pdop="1.0" dgps="0" sat="11" speed="0.3" offset="0.000" offset_dir="0" p="5.366"/>
+      <point x="-1.21492280" y="44.89508170" z="64.360" xl="367402.697" yl="6430645.003" zl="" date="2026-06-10" time="12:44:52" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.491"/>
+      <point x="-1.21492220" y="44.89508250" z="64.270" xl="367402.749" yl="6430645.089" zl="" date="2026-06-10" time="12:44:54" pdop="1.0" dgps="0" sat="11" speed="0.1" offset="0.000" offset_dir="0" p="5.615"/>
+      <point x="-1.21492210" y="44.89508270" z="64.140" xl="367402.758" yl="6430645.111" zl="" date="2026-06-10" time="12:44:56" pdop="1.0" dgps="0" sat="11" speed="0.0" offset="0.000" offset_dir="0" p="5.678"/>
+      <point x="-1.21492180" y="44.89508330" z="64.020" xl="367402.785" yl="6430645.176" zl="" date="2026-06-10" time="12:44:58" pdop="1.0" dgps="0" sat="11" speed="0.0" offset="0.000" offset_dir="0" p="5.678"/>
+      <point x="-1.21492250" y="44.89508440" z="63.820" xl="367402.737" yl="6430645.301" zl="" date="2026-06-10" time="12:45:00" pdop="1.0" dgps="0" sat="11" speed="0.1" offset="0.000" offset_dir="0" p="5.740"/>
+      <point x="-1.21492320" y="44.89508540" z="63.800" xl="367402.688" yl="6430645.415" zl="" date="2026-06-10" time="12:45:02" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.865"/>
+      <point x="-1.21492390" y="44.89508580" z="63.800" xl="367402.635" yl="6430645.462" zl="" date="2026-06-10" time="12:45:04" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.927"/>
+      <point x="-1.21492350" y="44.89508690" z="64.130" xl="367402.673" yl="6430645.582" zl="" date="2026-06-10" time="12:45:06" pdop="1.4" dgps="0" sat="10" speed="0.5" offset="0.000" offset_dir="0" p="5.865"/>
+    </data>
+    <attrib name="Name" value="Pp6-g22bis-3-bbl" type="text"/>
+  </entity>
+
+  <entity type="point" class="Point">
+    <data>
+      <point x="-1.21461450" y="44.89509030" z="57.950" xl="367427.053" yl="6430644.658" zl="" date="2026-06-10" time="12:48:16" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.428"/>
+      <point x="-1.21461650" y="44.89508840" z="57.970" xl="367426.884" yl="6430644.456" zl="" date="2026-06-10" time="12:48:18" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.428"/>
+      <point x="-1.21461770" y="44.89508870" z="57.930" xl="367426.791" yl="6430644.494" zl="" date="2026-06-10" time="12:48:20" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.241"/>
+      <point x="-1.21461850" y="44.89508850" z="57.940" xl="367426.727" yl="6430644.475" zl="" date="2026-06-10" time="12:48:22" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.241"/>
+      <point x="-1.21461890" y="44.89508870" z="57.980" xl="367426.696" yl="6430644.499" zl="" date="2026-06-10" time="12:48:24" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.179"/>
+      <point x="-1.21461840" y="44.89508950" z="58.060" xl="367426.741" yl="6430644.586" zl="" date="2026-06-10" time="12:48:26" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.241"/>
+      <point x="-1.21461880" y="44.89509030" z="58.030" xl="367426.714" yl="6430644.676" zl="" date="2026-06-10" time="12:48:28" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.179"/>
+      <point x="-1.21461880" y="44.89509130" z="58.050" xl="367426.720" yl="6430644.787" zl="" date="2026-06-10" time="12:48:30" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21461910" y="44.89509210" z="58.040" xl="367426.701" yl="6430644.877" zl="" date="2026-06-10" time="12:48:32" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21461910" y="44.89509310" z="58.030" xl="367426.707" yl="6430644.988" zl="" date="2026-06-10" time="12:48:34" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21461920" y="44.89509380" z="58.050" xl="367426.703" yl="6430645.066" zl="" date="2026-06-10" time="12:48:36" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21461830" y="44.89509350" z="58.220" xl="367426.772" yl="6430645.029" zl="" date="2026-06-10" time="12:48:38" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21461920" y="44.89509340" z="58.370" xl="367426.701" yl="6430645.021" zl="" date="2026-06-10" time="12:48:40" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.179"/>
+      <point x="-1.21461960" y="44.89509330" z="58.550" xl="367426.668" yl="6430645.012" zl="" date="2026-06-10" time="12:48:42" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.179"/>
+      <point x="-1.21462130" y="44.89509490" z="58.420" xl="367426.544" yl="6430645.197" zl="" date="2026-06-10" time="12:48:44" pdop="1.4" dgps="0" sat="10" speed="0.0" offset="0.000" offset_dir="0" p="5.116"/>
+      <point x="-1.21462190" y="44.89509600" z="58.410" xl="367426.503" yl="6430645.321" zl="" date="2026-06-10" time="12:48:46" pdop="1.4" dgps="0" sat="10" speed="0.1" offset="0.000" offset_dir="0" p="5.054"/>
+    </data>
+    <attrib name="Name" value="Pp7-g22bis-3-b" type="text"/>
+  </entity>
+</document>

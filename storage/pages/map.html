@@ -1,34 +1,86 @@
 <div id="map-container">
-    <div id="map-control-panel">
-        <h2 class="panel-title">Gestion des Couches</h2>
-        <div class="panel-sep"></div>
-        
+    <div id="map-control-panel" class="box-blur">
+        <div style="display: flex; justify-content: center; align-items: left; flex-direction: column; gap: 0.6rem;">
+            <h1 class="panel-title">Gestion des Couches</h1>
+            <div style="display: flex; gap: 8px;">
+                <button id="btn-recenter-map" class="custom-btn-reset" title="Centrer la vue sur les points filtrés">Recentrer</button>
+                <button id="btn-reset-filters" class="custom-btn-reset" title="Réinitialiser tous les filtres">Effacer</button>
+            </div>
+        </div>
         <div class="layer-section">
-            <h3>Fichiers Vecteurs (SHP)</h3>
-            <label class="layer-item">
-                <input type="checkbox" id="layer-shp-1" checked>
-                <span class="custom-checkbox"></span>
-                Limites parcellaires
-            </label>
-            <label class="layer-item">
-                <input type="checkbox" id="layer-shp-2">
-                <span class="custom-checkbox"></span>
-                Réseau hydrographique
-            </label>
+            <h3>Fond de carte</h3>
+            <select id="map-base-layer" class="custom-select">
+                <option value="osm">OpenStreetMap (Plan)</option>
+                <option value="satellite">Satellite (Imagerie)</option>
+                <option value="topo">OpenTopoMap (Topographie)</option>
+            </select>
+        </div>
+
+        <div class="panel-sep"></div>
+
+        <h2 class="panel-title">Filtres Données GNSS</h2>
+        <div class="layer-section">
+            <h3>Filtrer par Site</h3>
+            <div class="filter-row">
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-site" value="M" checked>
+                    <span class="custom-checkbox"></span>
+                    Mimizan (M)
+                </label>
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-site" value="P" checked>
+                    <span class="custom-checkbox"></span>
+                    Le Porge (P)
+                </label>
+            </div>
         </div>
 
         <div class="layer-section">
-            <h3>Fichiers Rasters</h3>
-            <label class="layer-item">
-                <input type="checkbox" id="layer-raster-1" checked>
-                <span class="custom-checkbox"></span>
-                Indice NDVI (Capteur)
-            </label>
-            <label class="layer-item">
-                <input type="checkbox" id="layer-raster-2">
-                <span class="custom-checkbox"></span>
-                Modèle Numérique de Terrain
-            </label>
+            <h3>Filtrer par Interface</h3>
+            <div id="interface-filters-container" class="filter-grid">
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-interface" value="HP" checked>
+                    <span class="custom-checkbox"></span>
+                    Haut de plage (HP)
+                </label>
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-interface" value="BI" checked>
+                    <span class="custom-checkbox"></span>
+                    Bas de plage (BI)
+                </label>
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-interface" value="BG" checked>
+                    <span class="custom-checkbox"></span>
+                    Bas de dune (BG)
+                </label>
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-interface" value="BLH" checked>
+                    <span class="custom-checkbox"></span>
+                    Limite Haute (BLH)
+                </label>
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-interface" value="H" checked>
+                    <span class="custom-checkbox"></span>
+                    Haut de dune (H)
+                </label>
+                <label class="layer-item">
+                    <input type="checkbox" class="filter-interface" value="AUCUN" checked>
+                    <span class="custom-checkbox"></span>
+                    Sans classe / Non spécifié
+                </label>
+            </div>
+        </div>
+
+        <div class="layer-section">
+            <h3>Filtrer par Profil (Groupe)</h3>
+            <select id="filter-profile" class="custom-select">
+                <option value="all">Tous les profils</option>
+            </select>
+        </div>
+
+        <div class="layer-section">
+            <h3>Précision Horiz. Max (<span id="precision-value">20</span>m)</h3>
+            <input type="range" id="filter-precision" min="0" max="20" step="1" value="20" class="custom-slider">
         </div>
     </div>
     <div id="osm-map"></div>
